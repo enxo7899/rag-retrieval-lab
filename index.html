@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retrieval lab: which design finds the right passage</title>
+<meta name="description" content="A retrieval lab that measures which chunker, retriever and reranker finds the right passage, with a held-out test set, confidence intervals and an abstain threshold. Runs in the browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Petrona:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16181a;--muted:#5d625f;--rule:#d8dbd9;--green:#0f5f4a;--tint:#dcefe7;--serif:"Petrona",Georgia,"Times New Roman",serif;--mono:"Anonymous Pro",ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--ink);font:19px/1.5 var(--serif);overflow-x:hidden}
+a{color:var(--green);text-underline-offset:3px}
+.page{max-width:1180px;margin:0 auto;padding:0 24px}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px}
+.c12{grid-column:1/-1}.c8{grid-column:span 8}.c7{grid-column:span 7}.c6{grid-column:span 6}.c5{grid-column:span 5}.c4{grid-column:span 4}.c3{grid-column:span 3}
+.s-side{grid-column:1/span 3}.s-main{grid-column:4/-1}
+@media(max-width:860px){.page{padding:0 16px}.grid{display:block}.s-side,.s-main{grid-column:auto}}
+.banner{border-bottom:1px solid var(--rule);font-size:15px;color:var(--muted);padding:9px 0}
+.banner .page{display:block}
+header.top{padding:64px 0 34px;border-bottom:1px solid var(--ink)}
+h1{font:600 clamp(36px,6.2vw,68px)/1.02 var(--serif);letter-spacing:-.02em;margin:0 0 22px}
+.lede{font-size:21px;line-height:1.45;max-width:36em;margin:0 0 14px}
+.meta{font-size:15px;color:var(--muted);margin:0}
+.meta b{font-weight:600;color:var(--ink)}
+section{padding:46px 0 12px;border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+h2{font:600 clamp(28px,4vw,40px)/1.1 var(--serif);letter-spacing:-.01em;margin:0 0 10px}
+h3{font:600 20px/1.25 var(--serif);margin:0 0 4px}
+.side p{font-size:16px;color:var(--muted);margin:0 0 12px}
+.label{font-size:15px;color:var(--muted)}
+.mono{font-family:var(--mono)}
+button{font:500 16px var(--serif);background:#fff;color:var(--ink);border:1px solid var(--ink);padding:6px 14px;cursor:pointer;border-radius:0}
+button:hover{background:var(--ink);color:#fff}
+button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+button.on{background:var(--green);border-color:var(--green);color:#fff}
+button.link{border:0;padding:0;background:none;color:var(--green);text-decoration:underline;text-underline-offset:3px;text-align:left}
+button.link:hover{background:none;color:var(--ink)}
+input[type=text]{font:20px var(--serif);width:100%;padding:10px 0;border:0;border-bottom:1.5px solid var(--ink);background:#fff;border-radius:0}
+select,input[type=number]{font:15px var(--mono);border:0;border-bottom:1px solid var(--ink);background:#fff;padding:3px 2px;border-radius:0;color:var(--ink);max-width:100%}
+input[type=number]{width:4.2em}
+.ask{display:flex;gap:16px;align-items:end;margin-bottom:12px}
+.ask button{white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px 22px;margin:8px 0 6px;font-size:16px}
+.chips .label{width:100%}
+.break{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:24px;border-top:1px solid var(--ink);margin:26px 0 8px}
+.break>div{padding:12px 0 8px}
+.break p{font-size:16px;color:var(--muted);margin:0 0 8px}
+@media(max-width:860px){.break{grid-template-columns:1fr}.break>div{border-bottom:1px solid var(--rule)}}
+.sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;margin-top:22px}
+@media(max-width:980px){.sides{grid-template-columns:1fr;row-gap:36px}}
+.side-head{border-top:1px solid var(--ink);padding-top:10px}
+.cfg{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:15px;margin:8px 0 6px}
+.cfg label{display:flex;gap:6px;align-items:center}
+.cfg input[type=checkbox]{accent-color:var(--green)}
+.verdict{margin:10px 0 4px;font-size:18px}
+.verdict.abstain{font-weight:600}
+.verdict.answer b{color:var(--green)}
+ol.results{list-style:none;margin:0;padding:0}
+ol.results.dim{opacity:.55}
+.res{padding:14px 0 12px;border-top:1px solid var(--rule)}
+.res.gold{box-shadow:inset 3px 0 0 var(--green);padding-left:14px}
+.rhead{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:8px;align-items:baseline}
+.rk{font:700 16px var(--mono)}
+.title{font-weight:600}
+.rev{font-size:14px;color:var(--muted);display:block}
+.rev.old{color:var(--ink);text-decoration:underline;text-decoration-style:dotted}
+.path{font-size:15px;color:var(--muted)}
+.sc{font:16px var(--mono);white-space:nowrap}
+.snip{margin:6px 0 4px 34px;font-size:16.5px;line-height:1.45;color:#2a2d2b}
+.res.gold .snip{margin-left:34px}
+mark{background:var(--tint);color:var(--ink);padding:0 1px}
+mark.chunk{background:var(--tint)}
+.q{border-bottom:1.5px solid var(--green)}
+.tag{font-size:14px;color:var(--green);font-weight:600}
+details{margin:2px 0 2px 34px;font-size:15px}
+summary{cursor:pointer;color:var(--green);width:fit-content}
+.break-table{border-collapse:collapse;font:15px var(--mono);margin:6px 0 4px}
+.break-table td,.break-table th{padding:2px 14px 2px 0;border:0;text-align:left;font-weight:400}
+.break-table td.n,.break-table th.n{text-align:right}
+.break-table th{color:var(--muted);font-family:var(--serif);font-size:14px}
+pre.doc{white-space:pre-wrap;word-break:break-word;font:14px/1.5 var(--mono);margin:6px 0;padding:10px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);max-height:340px;overflow:auto}
+.empty{border-top:1px solid var(--ink);padding:18px 0;color:var(--muted);max-width:34em}
+.empty p{margin:0 0 6px}
+.wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.data{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+table.data th{font:600 14px var(--serif);text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--ink);white-space:nowrap;position:sticky;top:0;background:#fff}
+table.data td{padding:6px 10px 6px 0;border-bottom:1px solid var(--rule);vertical-align:baseline}
+table.data td.n,table.data th.n{text-align:right;font-family:var(--mono);font-size:14.5px;white-space:nowrap}
+table.data th.n{font-family:var(--serif);font-size:14px}
+table.data td.cfgname{font-size:15px;min-width:230px}
+table.data tr.chosen td{color:var(--green);font-weight:600;background:var(--tint)}
+table.data tr.base td{box-shadow:inset 0 -1px 0 var(--rule)}
+th button{all:unset;cursor:pointer}
+th button:hover{color:var(--green)}
+th[aria-sort=ascending] button::after{content:" \2191"}
+th[aria-sort=descending] button::after{content:" \2193"}
+.ci{color:var(--muted);font-size:14px}
+tr.chosen .ci{color:var(--green)}
+.scroll{max-height:520px;overflow:auto;border-top:1px solid var(--ink)}
+.state{font-size:19px;margin:0 0 6px}
+.state b{color:var(--green)}
+.leakbox{margin:16px 0 8px}
+.seg{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0}
+.seg label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.seg input{accent-color:var(--green)}
+.kv{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;margin:8px 0 14px}
+.kv th{font:600 15px var(--serif);text-align:left;border-bottom:1px solid var(--ink);padding:6px 14px 6px 0}
+.kv td{padding:6px 14px 6px 0;border-bottom:1px solid var(--rule)}
+.kv td.n,.kv th.n{text-align:right;font-family:var(--mono);font-size:15.5px;white-space:nowrap}
+.kv th.n{font-family:var(--serif);font-size:15px}
+.note{font-size:16px;color:var(--muted);max-width:44em}
+.filters{display:flex;gap:6px 18px;flex-wrap:wrap;margin:10px 0 6px;font-size:16px}
+.fail{padding:14px 0;border-top:1px solid var(--rule)}
+.fail:first-child{border-top:1px solid var(--ink)}
+.fail .qq{font-size:20px;font-weight:600;margin:0 0 4px}
+.fail dl{margin:0;display:grid;grid-template-columns:130px minmax(0,1fr);row-gap:3px;column-gap:14px;font-size:16px}
+.fail dt{color:var(--muted)}.fail dd{margin:0}
+.fail .kind{color:var(--green);font-weight:600}
+@media(max-width:520px){.fail dl{grid-template-columns:1fr}.fail dt{margin-top:6px}body{font-size:18px}.ask{flex-direction:column;align-items:stretch}}
+footer{padding:30px 0 60px;font-size:16px;color:var(--muted);border-top:1px solid var(--ink);margin-top:20px}
+</style>
+</head>
+<body>
+<div class="banner"><div class="page">Live demo by EmSoft. Drin Energy is a fictional Albanian utility and every document in this lab was written for the demo. <a href="https://github.com/enxo7899/rag-retrieval-lab">Source and tests</a></div></div>
+<div class="page">
+<header class="top grid">
+  <div class="c8">
+    <h1>Which retrieval design actually finds the right passage?</h1>
+    <p class="lede">Chat over documents is only as good as the passages it retrieves. This lab compares chunkers, retrievers and a reranker on labelled questions, tunes on one half of the questions and reports on the other half.</p>
+    <p class="meta" id="meta">Loading the corpus and results.</p>
+  </div>
+</header>
+
+<section id="bench" class="grid">
+  <div class="s-side side">
+    <h2>Ask the corpus</h2>
+    <p>Type a question. Two configurations answer it side by side, with the matching chunk marked inside its document and every score that produced the ranking.</p>
+    <p>Questions can be in English, Italian or Albanian, and typos are fine.</p>
+  </div>
+  <div class="s-main">
+    <div class="ask">
+      <div style="flex:1"><label class="label" for="q">Your question</label><input type="text" id="q" autocomplete="off" placeholder="How much does a household pay for reconnection within 24 hours?"></div>
+      <button id="go" type="button">Search</button>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="break" id="break">
+      <div><h3>Ask what the documents do not say</h3><p>The abstain threshold, tuned on the tuning set, should refuse it.</p><button type="button" data-try="unanswerable">Try an unanswerable question</button></div>
+      <div><h3>Ask about an outdated revision</h3><p>Two revisions say nearly the same thing. Compare without and with the reranker.</p><button type="button" data-try="outdated">Try the outdated revision</button></div>
+      <div><h3>Tune on the test set</h3><p>Choose the configuration by looking at the held-out questions and see the number inflate.</p><button type="button" data-try="leak">Show the leak</button></div>
+    </div>
+    <div class="sides" id="sides"></div>
+  </div>
+</section>
+
+<section id="grid" class="grid">
+  <div class="s-side side">
+    <h2>The results grid</h2>
+    <p id="gridnote">Loading.</p>
+  </div>
+  <div class="s-main">
+    <p class="state" id="state"></p>
+    <div class="seg" role="radiogroup" aria-label="How the configuration is chosen">
+      <label><input type="radio" name="mode" value="tuning" checked> Choose on the tuning set (correct)</label>
+      <label><input type="radio" name="mode" value="test"> Choose on the test set (leakage)</label>
+    </div>
+    <div id="leak"></div>
+    <div class="filters" id="filters"></div>
+    <div class="scroll"><div class="wrap"><table class="data" id="table"></table></div></div>
+    <h3 style="margin-top:34px">What each part contributes</h3>
+    <p class="note">The chosen configuration with one thing changed, scored on the test set only. Intervals overlap, so treat small differences as not proven.</p>
+    <div class="wrap"><table class="kv" id="ablate"></table></div>
+    <h3 style="margin-top:26px">By kind of question</h3>
+    <div class="wrap"><table class="kv" id="bytype"></table></div>
+  </div>
+</section>
+
+<section id="failures" class="grid">
+  <div class="s-side side">
+    <h2>Failure gallery</h2>
+    <p>Held-out test questions that the chosen configuration still gets wrong, with the reason worked out from the data.</p>
+  </div>
+  <div class="s-main">
+    <div class="filters" id="ffilters"></div>
+    <div id="fails"></div>
+  </div>
+</section>
+<footer>The code in <span class="mono">src/</span> is the same code the tests and <span class="mono">npm run evaluate</span> run. Numbers on this page come from <span class="mono">docs/results.json</span>. <a href="https://github.com/enxo7899/rag-retrieval-lab">How it works and its limits</a></footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/**
+ * Hand-written synonym groups for query expansion. Every word in a group expands to the
+ * others. Groups mix English, Italian and Albanian so a question in one language can reach
+ * a passage in another. Words are passed through the same analyzer as the documents.
+ * This table was written by the lab author, who also wrote the questions (see README, Limits).
+ * @type {string[][]}
+ */
+export const SYNONYM_GROUPS = [
+  ["outage", "interruption", "blackout", "interruzione", "ndërprerje", "ndërprerja"],
+  ["disconnection", "disconnect", "shutoff", "distacco", "shkëputja", "shkëputje"],
+  ["reconnection", "reconnect", "reactivation", "riattivazione", "rilidhja", "rilidhje"],
+  ["bill", "invoice", "fattura", "faturë", "fatura"],
+  ["fee", "charge", "cost", "price", "commissione", "kushton", "tarifat"],
+  ["solar", "photovoltaic", "pv", "fotovoltaico"],
+  ["meter", "counter", "contatore", "matës", "matësi"],
+  ["complaint", "dispute", "grievance", "contestare", "ankesë", "ankesat", "ankesa"],
+  ["compensation", "refund", "reimbursement", "rimbursim", "kompensim", "kompensimi", "rimbursimit"],
+  ["technician", "lineman", "engineer", "tekniku", "teknik"],
+  ["wire", "conductor", "cable", "kabllo"],
+  ["tree", "vegetation", "branch", "brush", "pemë", "pemët", "pemëve"],
+  ["distance", "clearance", "distanca", "distancë"],
+  ["hospital", "clinic", "ospedale", "spital", "spitali"],
+  ["safety", "protective", "ppe"],
+  ["harness", "belt"],
+  ["interest", "penalty", "surcharge", "interesse", "interes", "interesi"],
+  ["overdue", "late", "arrears", "unpaid", "vonuar", "vonesa", "ritardo"],
+  ["notice", "warning", "notification", "notify", "njoftim", "avviso", "preavviso"],
+  ["instalment", "installment", "kest", "këste", "rata"],
+  ["tenant", "renter", "qiramarrës", "inquilino", "qira"],
+  ["generator", "gjenerator", "generatore", "gruppo"],
+  ["transformer", "transformator", "trasformatore", "transformatori", "transformatorit"],
+  ["oil", "vaj", "vaji", "vajin", "olio"],
+  ["water", "ujë", "ujit", "acqua"],
+  ["pump", "pompë", "pompa"],
+  ["alarm", "alert", "alarmi"],
+  ["prepaid", "parapagim", "prepagato"],
+  ["credit", "balance", "kredi", "kredia", "saldo"],
+  ["supply", "electricity", "power", "furnizim", "furnizimi", "energji", "energjinë", "luce", "drite", "dritave", "dritat", "light", "lights"],
+  ["defect", "fault", "defekt", "defekti", "guasto"],
+  ["minimum", "least", "minimale", "minimo"],
+  ["maximum", "most", "largest", "massimo"],
+  ["deposit", "depozitë", "depozita"],
+  ["heir", "trashëgimtar", "trashëgimtari", "erede"],
+  ["died", "dead", "deceased", "vdes", "vdekjes"],
+  ["move", "moving", "relocation", "largimit", "largim"],
+  ["punish", "discipline", "blame", "sanction", "sanzioni"],
+  ["claim", "request", "kërkesa", "kerkoj", "kërkoj"],
+  ["retention", "keep", "kept", "store", "retain"],
+  ["export", "sell", "feed"],
+];

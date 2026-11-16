@@ -1,0 +1,211 @@
+{"type":"outdated","lang":"en","gold":["DE-OPS-101-r3#3"],"q":"How soon must the seal number be recorded in FieldDesk after fitting a new seal?","id":"Q001","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-OPS-101-r3#2"],"q":"What type of tamper-evident seal does a technician carry?","id":"Q002","split":"test"}
+{"type":"outdated","lang":"en","gold":["DE-OPS-101-r3#5"],"q":"How long are seal logs and photographs kept?","id":"Q003","split":"test"}
+{"type":"outdated","lang":"en","gold":["DE-OPS-101-r3#4"],"q":"When must Revenue Protection be called after finding bypass wires?","id":"Q004","split":"test"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"What is the household energy rate for the first 300 kWh a month?","id":"Q005","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"What is the fixed monthly charge for small business customers?","id":"Q006","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-401-r3#2"],"q":"What does the social tariff charge for the first 150 kWh?","id":"Q007","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-ENG-301-r2#2"],"q":"How many working days does Drin Energy take to answer a solar connection application?","id":"Q008","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-ENG-301-r2#5"],"q":"What is the connection fee for a 12 kW rooftop solar system?","id":"Q009","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-ENG-301-r2#1"],"q":"What is the largest rooftop PV system that can use the prosumer connection procedure?","id":"Q010","split":"test"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-460-r2#2"],"q":"How much compensation does a household get for a 12 hour power cut?","id":"Q011","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-460-r2#3"],"q":"How long do I have to claim compensation after an interruption?","id":"Q012","split":"test"}
+{"type":"outdated","lang":"en","gold":["DE-ENG-301-r2#4"],"q":"How fast must anti-islanding protection trip on a solar inverter?","id":"Q013","split":"tuning"}
+{"type":"outdated","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"What is the demand charge per kW for large industrial customers?","id":"Q014","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-110-r2#2"],"q":"What are the minimum notice periods for planned outages for hospitals?","id":"Q015","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-110-r2#3"],"q":"How many hours before an outage is the reminder sent?","id":"Q016","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-110-r2#4"],"q":"What is the maximum duration of a planned interruption without a mobile generator?","id":"Q017","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-118#2"],"q":"How often must transformers above 2500 kVA have a dissolved gas sample?","id":"Q018","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-118#4"],"q":"What is the minimum breakdown voltage for transformer oil?","id":"Q019","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-118#5"],"q":"What must be done if the oil breakdown voltage is below 30 kV?","id":"Q020","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-122#2"],"q":"Who is allowed to isolate equipment in a substation?","id":"Q021","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-122#4"],"q":"What happens when the person who fitted a lock cannot be reached?","id":"Q022","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-122#3"],"q":"How do I prove the circuit dead before earthing?","id":"Q023","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-130#2"],"q":"What is the maximum current of the SM-3P smart meter?","id":"Q024","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-130#4"],"q":"How strong must the signal be for a smart meter?","id":"Q025","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-130#3"],"q":"How long will the supply be off during a smart meter installation?","id":"Q026","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-141#2"],"q":"What is the response time for a fault affecting more than 50 customers?","id":"Q027","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-141#4"],"q":"When is a mobile generator connected during a fault repair?","id":"Q028","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-OPS-150#2"],"q":"What is the minimum clearance for 20 kV lines from trees?","id":"Q029","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-150#5"],"q":"Which months is tree cutting forbidden because of nesting?","id":"Q030","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-OPS-150#3"],"q":"How often are rural corridors cleared?","id":"Q031","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-SAF-201#2"],"q":"Which gloves are required for pole climbing?","id":"Q032","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-SAF-201#4"],"q":"At what wind speed must climbing stop?","id":"Q033","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-SAF-210#2"],"q":"What is the arc flash boundary for 10 kV switchgear?","id":"Q034","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-SAF-210#3"],"q":"Can anyone work live on medium voltage equipment?","id":"Q035","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-SAF-215#2"],"q":"Within how many hours must a serious injury be reported to the labour inspectorate?","id":"Q036","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-SAF-215#1"],"q":"How large must equipment damage be before it is reported as an incident?","id":"Q037","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-ENG-310#2"],"q":"What is the current rating of a 50 mm2 cable?","id":"Q038","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-ENG-310#3"],"q":"What derating factor applies at a ground temperature of 35 degrees?","id":"Q039","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-ENG-320#4"],"q":"What auto-reclose dead times are used on overhead feeders?","id":"Q040","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-ENG-320#3"],"q":"What is the earth fault pickup setting?","id":"Q041","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-ENG-330#2"],"q":"How quickly must a priority 1 SCADA alarm be acknowledged?","id":"Q042","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-ENG-330#3"],"q":"Can priority 1 alarms be shelved?","id":"Q043","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-ENG-340#3"],"q":"How far must battery containers stand from buildings?","id":"Q044","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-415#1"],"q":"What is the late payment interest rate?","id":"Q045","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-415#3"],"q":"How much does a household pay for reconnection within 24 hours?","id":"Q046","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-415#4"],"q":"When does Drin Energy not disconnect supply?","id":"Q047","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-415#5"],"q":"How many instalments can a payment plan have?","id":"Q048","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-410#2"],"q":"How many days after the issue date is a bill due?","id":"Q049","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-410#3"],"q":"What is the fee for paying cash at the post office?","id":"Q050","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-410#5"],"q":"How is the deposit for a new business customer calculated?","id":"Q051","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-420#2"],"q":"How long does Drin Energy take to acknowledge a complaint?","id":"Q052","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-420#4"],"q":"How much does a meter accuracy test cost the customer?","id":"Q053","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-425#1"],"q":"What notice must be given before moving out?","id":"Q054","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-425#3"],"q":"What documents does a new tenant need to open an account?","id":"Q055","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-430#1"],"q":"Who qualifies for the Priority Services Register?","id":"Q056","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-440#2"],"q":"When can customers send their own meter reading?","id":"Q057","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-450#2"],"q":"What is the minimum prepaid top-up?","id":"Q058","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-450#3"],"q":"How much emergency credit does a prepaid meter give?","id":"Q059","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-CUS-470#2"],"q":"How long are billing records kept?","id":"Q060","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-480#2"],"q":"What export rate is credited to prosumers?","id":"Q061","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-CUS-490#2"],"q":"What is the maximum refund for a heat pump?","id":"Q062","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-HR-501#3"],"q":"What is the on-call allowance per week?","id":"Q063","split":"tuning"}
+{"type":"direct","lang":"en","gold":["DE-IT-530#3"],"q":"How many failed sign-in attempts lock an account?","id":"Q064","split":"test"}
+{"type":"direct","lang":"en","gold":["DE-FIN-520#2"],"q":"How many quotes are needed for a purchase of 2,000,000 ALL?","id":"Q065","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-110-r2#2"],"q":"How far ahead are intensive care units told that the power will be switched off for works?","id":"Q066","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-SAF-201#2"],"q":"Which kit protects a lineman's head and hands on a pole?","id":"Q067","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-SAF-201#3"],"q":"How tall can I go before a safety belt is mandatory?","id":"Q068","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-SAF-215#5"],"q":"Can a worker be punished for flagging something that almost went wrong?","id":"Q069","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-SAF-201#3"],"q":"What if the pole I need to climb is really old?","id":"Q070","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-118#3"],"q":"How do I stop a sampled oil bottle from trapping air?","id":"Q071","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-122#2"],"q":"What qualification is needed to switch off and lock a high-voltage circuit?","id":"Q072","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-122#4"],"q":"Someone left their padlock on and went home, can we remove it?","id":"Q073","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-141#2"],"q":"How fast do you get a repair crew if a cable is sparking?","id":"Q074","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-141#2"],"q":"My lights flicker, how long until someone comes?","id":"Q075","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-OPS-150#2"],"q":"How far apart should branches and power lines be?","id":"Q076","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-410#3"],"q":"Is there an extra charge if I pay my bill at the post office with banknotes?","id":"Q077","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-415#1"],"q":"What do I owe in penalties if I miss the payment date by a week?","id":"Q078","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-415#3"],"q":"How much do I pay to get my lights back on after being cut off?","id":"Q079","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-415#5"],"q":"Can I spread my overdue balance over several months?","id":"Q080","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-415#4"],"q":"Are there times when the company will not cut off a customer even if they have not paid?","id":"Q081","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-420#4"],"q":"I think my meter runs too fast, can you check it?","id":"Q082","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-420#5"],"q":"What can I do if the company never replies to my complaint?","id":"Q083","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-425#1"],"q":"I am selling my flat next month, what do I need to do about electricity?","id":"Q084","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-425#4"],"q":"My father died, how do I take over his electricity contract?","id":"Q085","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-470#2"],"q":"Does the company keep recordings of my calls forever?","id":"Q086","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-470#3"],"q":"Do you read my usage every quarter of an hour?","id":"Q087","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-480#3"],"q":"I produce more solar power than I use, what happens to the extra?","id":"Q088","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-490#2"],"q":"Do I get money back for putting insulation in my roof?","id":"Q089","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-HR-501#3"],"q":"How much extra do I get paid for night callouts?","id":"Q090","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-HR-501#4"],"q":"How much sleep must a technician get after working past midnight?","id":"Q091","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-IT-530#1"],"q":"How strong must a staff password be?","id":"Q092","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-FIN-520#2"],"q":"Does a very large purchase need board sign-off?","id":"Q093","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-450#3"],"q":"What happens if my prepaid meter runs out of money at midnight?","id":"Q094","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"Is there a cheap tariff for using power overnight?","id":"Q095","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-401-r3#3"],"q":"Is VAT included in the tariff prices?","id":"Q096","split":"test"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-401-r3#2"],"q":"How do poorer households get cheaper power?","id":"Q097","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-ENG-340#2"],"q":"What stops a battery from overheating?","id":"Q098","split":"tuning"}
+{"type":"paraphrase","lang":"en","gold":["DE-CUS-450#1"],"q":"How can I get an electricity meter that I pay for in advance?","id":"Q099","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-415#1"],"q":"what happens if I'm late","id":"Q100","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-415#3"],"q":"cost to turn back on","id":"Q101","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-OPS-122#2"],"q":"who can switch off","id":"Q102","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-OPS-141#2"],"q":"how long to wait for a repair","id":"Q103","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-460-r2#2"],"q":"money back for blackout","id":"Q104","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-SAF-201#3"],"q":"rules for climbing","id":"Q105","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-OPS-150#2"],"q":"too close to wires","id":"Q106","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-425#3"],"q":"what do I need to move in","id":"Q107","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-470#2"],"q":"how long do you keep my info","id":"Q108","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-480#2"],"q":"sell power back","id":"Q109","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"how much per unit","id":"Q110","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-410#3"],"q":"pay at the post office","id":"Q111","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-430#1"],"q":"who gets special help","id":"Q112","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-425#1"],"q":"tell them I moved","id":"Q113","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-450#3"],"q":"emergency balance","id":"Q114","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-420#2"],"q":"how fast must they answer","id":"Q115","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-440#4"],"q":"estimated bill again","id":"Q116","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-CUS-460-r2#4"],"q":"storm exclusions","id":"Q117","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-OPS-122#4"],"q":"lock cut","id":"Q118","split":"tuning"}
+{"type":"keyword-poor","lang":"en","gold":["DE-ENG-310#3"],"q":"hot weather cable rating","id":"Q119","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-HR-501#4"],"q":"night shift rest","id":"Q120","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-ENG-330#3"],"q":"silence an alarm","id":"Q121","split":"test"}
+{"type":"keyword-poor","lang":"en","gold":["DE-SAF-215#2"],"q":"how soon to tell the inspectors","id":"Q122","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-420#2"],"q":"hwo long does drin energy take to acknowlege a complaint","id":"Q123","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-415#3"],"q":"reconection fee for a household","id":"Q124","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-OPS-150#2"],"q":"minumum clearence for 20 kV lines","id":"Q125","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-OPS-118#4"],"q":"transfomer oil breakdown voltge","id":"Q126","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-SAF-210#2"],"q":"whats the arc flash bounday for 10 kV swtchgear","id":"Q127","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-CUS-415#1"],"q":"interst on overdue bil","id":"Q128","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-450#2"],"q":"minimun top up prepaid mter","id":"Q129","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-430#1"],"q":"pryority services regsiter eligibilty","id":"Q130","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-CUS-460-r2#2"],"q":"compensaton for a 24 hour interuption","id":"Q131","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-OPS-130#4"],"q":"smrat meter signal strenght","id":"Q132","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-CUS-415#5"],"q":"late paymnet instalments plan","id":"Q133","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-450#3"],"q":"emergancy credit prepaid","id":"Q134","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-SAF-201#3"],"q":"how often are poles inspeted before climbing","id":"Q135","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-ENG-320#4"],"q":"auto-recolse dead time","id":"Q136","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-480#3"],"q":"surplus solar credit explre after 12 months","id":"Q137","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-470#2"],"q":"retantion of billing records","id":"Q138","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-OPS-110-r2#2"],"q":"palnned outage notice for households","id":"Q139","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-SAF-201#2"],"q":"gloves for pole climing","id":"Q140","split":"test"}
+{"type":"typo","lang":"en","gold":["DE-CUS-415#4"],"q":"disconection never on public holidays","id":"Q141","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-CUS-401-r3#1"],"q":"tarif for small bussiness","id":"Q142","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-FIN-520#2"],"q":"procuremnt thresholds public tender","id":"Q143","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-IT-530#3"],"q":"pasword lockout after failed atempts","id":"Q144","split":"tuning"}
+{"type":"typo","lang":"en","gold":["DE-OPS-150#5"],"q":"vegatation nesting seasn","id":"Q145","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#1"],"q":"Entro quanti giorni devo pagare la fattura?","id":"Q146","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#2"],"q":"Quanto costa pagare in contanti alla posta?","id":"Q147","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#3"],"q":"Quanto costa la riattivazione dopo il pagamento?","id":"Q148","split":"test"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#4"],"q":"Come posso contestare una fattura?","id":"Q149","split":"test"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#5"],"q":"Quando posso comunicare l'autolettura?","id":"Q150","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-OPS-110-IT#2"],"q":"Quanti giorni di preavviso per un'interruzione programmata a un ospedale?","id":"Q151","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-OPS-110-IT#3"],"q":"Quanto può durare al massimo un'interruzione programmata?","id":"Q152","split":"tuning"}
+{"type":"multilingual","lang":"it","gold":["DE-OPS-110-IT#4"],"q":"Chi riceve un generatore in prestito?","id":"Q153","split":"test"}
+{"type":"multilingual","lang":"it","gold":["DE-SAF-215-IT#2"],"q":"Entro quando va segnalato un quasi incidente?","id":"Q154","split":"test"}
+{"type":"multilingual","lang":"it","gold":["DE-CUS-410-IT#3"],"q":"Il venerdì pomeriggio possono staccarmi la luce?","id":"Q155","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-425-AL#1"],"q":"Sa ditë pune para largimit duhet të njoftoj kompaninë?","id":"Q156","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-425-AL#3"],"q":"Cilat dokumente më duhen për të hapur llogari si qiramarrës?","id":"Q157","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-425-AL#4"],"q":"Çfarë ndodh me llogarinë kur vdes titullari?","id":"Q158","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-415-AL#1"],"q":"Sa është interesi për faturën e vonuar?","id":"Q159","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-415-AL#3"],"q":"Sa kushton rilidhja e dritave brenda 24 orëve?","id":"Q160","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-415-AL#5"],"q":"A mund ta paguaj borxhin me këste?","id":"Q161","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-415-AL#4"],"q":"Kur nuk më shkëputin energjinë elektrike?","id":"Q162","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-OPS-141-AL#1"],"q":"Në cilin numër raportoj një defekt?","id":"Q163","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-OPS-141-AL#2"],"q":"Sa orë duhen që të vijë ekipi nëse ka zjarr?","id":"Q164","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-450-AL#2"],"q":"Sa është rimbushja minimale e matësit me parapagim?","id":"Q165","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-450-AL#3"],"q":"Sa kredi emergjente jep matësi kur mbaron kredia?","id":"Q166","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-460-AL#2"],"q":"Sa kompensim marr për ndërprerje 12 orë?","id":"Q167","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-460-AL#3"],"q":"Brenda sa ditësh duhet të kërkoj kompensimin?","id":"Q168","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-420-AL#4"],"q":"Sa kushton testimi i matësit?","id":"Q169","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-420-AL#3"],"q":"A mund të paguaj vetëm pjesën e pakontestuar të faturës?","id":"Q170","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-420-AL#5"],"q":"Në cilin organ i drejtohem nëse nuk përgjigjen ankesës?","id":"Q171","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-415-AL#3"],"q":"Sa kushton rilidhja e drites brenda 24 oreve","id":"Q172","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-450-AL#2"],"q":"Sa eshte rimbushja minimale per parapagim","id":"Q173","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-425-AL#3"],"q":"Cfare dokumentesh duhen per kontrate qiraje","id":"Q174","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-OPS-150#2"],"q":"Sa është distanca minimale e pemëve nga linja 20 kV?","id":"Q175","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-ENG-330#2"],"q":"Sa shpejt duhet të pranohet alarmi kritik në SCADA?","id":"Q176","split":"tuning"}
+{"type":"multilingual","lang":"sq","gold":["DE-OPS-118#4"],"q":"Cili është kufiri i ujit në vajin e transformatorit?","id":"Q177","split":"test"}
+{"type":"multilingual","lang":"sq","gold":["DE-CUS-490#2"],"q":"Sa është shuma maksimale e rimbursimit për pompë nxehtësie?","id":"Q178","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"How much does a new household connection to the grid cost?","id":"Q179","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the phone number for reporting gas leaks?","id":"Q180","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Does Drin Energy offer electric vehicle charging subscriptions?","id":"Q181","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the fine for stealing electricity?","id":"Q182","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"How many employees does Drin Energy have?","id":"Q183","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What dividend is paid to shareholders this year?","id":"Q184","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the carbon emissions target for 2030?","id":"Q185","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Can I pay my bill with cryptocurrency?","id":"Q186","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What wind speed is a 110 kV tower designed for?","id":"Q187","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"How do I apply for a job as a lineman?","id":"Q188","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the annual leave entitlement for technicians?","id":"Q189","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the water tariff per cubic metre?","id":"Q190","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Which transformer manufacturer does Drin Energy buy from?","id":"Q191","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the procedure for decommissioning a hydropower dam?","id":"Q192","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Does the company have a loyalty programme?","id":"Q193","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What are the opening hours of the Shkoder customer centre?","id":"Q194","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the retirement age for staff?","id":"Q195","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"How do I register a 5 MW solar farm?","id":"Q196","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the voltage of the national transmission grid?","id":"Q197","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the tariff for electric heating?","id":"Q198","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What insurance covers a damaged meter?","id":"Q199","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Can tenants get compensation for food spoiled in a power cut?","id":"Q200","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the penalty for contractors who miss deadlines?","id":"Q201","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Who repairs street lights?","id":"Q202","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the speed limit for company vehicles?","id":"Q203","split":"tuning"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"Who is the chief executive of Drin Energy?","id":"Q204","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"What is the price of a smart meter if I buy one myself?","id":"Q205","split":"test"}
+{"type":"unanswerable","lang":"en","gold":[],"q":"hwo much dose a new conection cost","id":"Q206","split":"tuning"}
+{"type":"unanswerable","lang":"it","gold":[],"q":"Come si richiede un allacciamento per un impianto eolico?","id":"Q207","split":"tuning"}
+{"type":"unanswerable","lang":"it","gold":[],"q":"Qual è il numero di telefono dell'ufficio legale?","id":"Q208","split":"tuning"}
+{"type":"unanswerable","lang":"sq","gold":[],"q":"Sa kushton gazi natyror për metër kub?","id":"Q209","split":"test"}
+{"type":"unanswerable","lang":"sq","gold":[],"q":"Si mund të aplikoj për punë si elektricist?","id":"Q210","split":"tuning"}
+{"type":"unanswerable","lang":"sq","gold":[],"q":"Cili është orari i punës së qendrës së klientit në Vlorë?","id":"Q211","split":"tuning"}

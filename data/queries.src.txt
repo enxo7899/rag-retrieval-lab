@@ -1,0 +1,213 @@
+# type | lang | gold passage ids (comma separated, empty = unanswerable) | query
+# Passage id = document id + "#" + section number. Types: direct, paraphrase, keyword-poor, typo, multilingual, outdated, unanswerable.
+outdated | en | DE-OPS-101-r3#3 | How soon must the seal number be recorded in FieldDesk after fitting a new seal?
+outdated | en | DE-OPS-101-r3#2 | What type of tamper-evident seal does a technician carry?
+outdated | en | DE-OPS-101-r3#5 | How long are seal logs and photographs kept?
+outdated | en | DE-OPS-101-r3#4 | When must Revenue Protection be called after finding bypass wires?
+outdated | en | DE-CUS-401-r3#1 | What is the household energy rate for the first 300 kWh a month?
+outdated | en | DE-CUS-401-r3#1 | What is the fixed monthly charge for small business customers?
+outdated | en | DE-CUS-401-r3#2 | What does the social tariff charge for the first 150 kWh?
+outdated | en | DE-ENG-301-r2#2 | How many working days does Drin Energy take to answer a solar connection application?
+outdated | en | DE-ENG-301-r2#5 | What is the connection fee for a 12 kW rooftop solar system?
+outdated | en | DE-ENG-301-r2#1 | What is the largest rooftop PV system that can use the prosumer connection procedure?
+outdated | en | DE-CUS-460-r2#2 | How much compensation does a household get for a 12 hour power cut?
+outdated | en | DE-CUS-460-r2#3 | How long do I have to claim compensation after an interruption?
+outdated | en | DE-ENG-301-r2#4 | How fast must anti-islanding protection trip on a solar inverter?
+outdated | en | DE-CUS-401-r3#1 | What is the demand charge per kW for large industrial customers?
+direct | en | DE-OPS-110-r2#2 | What are the minimum notice periods for planned outages for hospitals?
+direct | en | DE-OPS-110-r2#3 | How many hours before an outage is the reminder sent?
+direct | en | DE-OPS-110-r2#4 | What is the maximum duration of a planned interruption without a mobile generator?
+direct | en | DE-OPS-118#2 | How often must transformers above 2500 kVA have a dissolved gas sample?
+direct | en | DE-OPS-118#4 | What is the minimum breakdown voltage for transformer oil?
+direct | en | DE-OPS-118#5 | What must be done if the oil breakdown voltage is below 30 kV?
+direct | en | DE-OPS-122#2 | Who is allowed to isolate equipment in a substation?
+direct | en | DE-OPS-122#4 | What happens when the person who fitted a lock cannot be reached?
+direct | en | DE-OPS-122#3 | How do I prove the circuit dead before earthing?
+direct | en | DE-OPS-130#2 | What is the maximum current of the SM-3P smart meter?
+direct | en | DE-OPS-130#4 | How strong must the signal be for a smart meter?
+direct | en | DE-OPS-130#3 | How long will the supply be off during a smart meter installation?
+direct | en | DE-OPS-141#2 | What is the response time for a fault affecting more than 50 customers?
+direct | en | DE-OPS-141#4 | When is a mobile generator connected during a fault repair?
+direct | en | DE-OPS-150#2 | What is the minimum clearance for 20 kV lines from trees?
+direct | en | DE-OPS-150#5 | Which months is tree cutting forbidden because of nesting?
+direct | en | DE-OPS-150#3 | How often are rural corridors cleared?
+direct | en | DE-SAF-201#2 | Which gloves are required for pole climbing?
+direct | en | DE-SAF-201#4 | At what wind speed must climbing stop?
+direct | en | DE-SAF-210#2 | What is the arc flash boundary for 10 kV switchgear?
+direct | en | DE-SAF-210#3 | Can anyone work live on medium voltage equipment?
+direct | en | DE-SAF-215#2 | Within how many hours must a serious injury be reported to the labour inspectorate?
+direct | en | DE-SAF-215#1 | How large must equipment damage be before it is reported as an incident?
+direct | en | DE-ENG-310#2 | What is the current rating of a 50 mm2 cable?
+direct | en | DE-ENG-310#3 | What derating factor applies at a ground temperature of 35 degrees?
+direct | en | DE-ENG-320#4 | What auto-reclose dead times are used on overhead feeders?
+direct | en | DE-ENG-320#3 | What is the earth fault pickup setting?
+direct | en | DE-ENG-330#2 | How quickly must a priority 1 SCADA alarm be acknowledged?
+direct | en | DE-ENG-330#3 | Can priority 1 alarms be shelved?
+direct | en | DE-ENG-340#3 | How far must battery containers stand from buildings?
+direct | en | DE-CUS-415#1 | What is the late payment interest rate?
+direct | en | DE-CUS-415#3 | How much does a household pay for reconnection within 24 hours?
+direct | en | DE-CUS-415#4 | When does Drin Energy not disconnect supply?
+direct | en | DE-CUS-415#5 | How many instalments can a payment plan have?
+direct | en | DE-CUS-410#2 | How many days after the issue date is a bill due?
+direct | en | DE-CUS-410#3 | What is the fee for paying cash at the post office?
+direct | en | DE-CUS-410#5 | How is the deposit for a new business customer calculated?
+direct | en | DE-CUS-420#2 | How long does Drin Energy take to acknowledge a complaint?
+direct | en | DE-CUS-420#4 | How much does a meter accuracy test cost the customer?
+direct | en | DE-CUS-425#1 | What notice must be given before moving out?
+direct | en | DE-CUS-425#3 | What documents does a new tenant need to open an account?
+direct | en | DE-CUS-430#1 | Who qualifies for the Priority Services Register?
+direct | en | DE-CUS-440#2 | When can customers send their own meter reading?
+direct | en | DE-CUS-450#2 | What is the minimum prepaid top-up?
+direct | en | DE-CUS-450#3 | How much emergency credit does a prepaid meter give?
+direct | en | DE-CUS-470#2 | How long are billing records kept?
+direct | en | DE-CUS-480#2 | What export rate is credited to prosumers?
+direct | en | DE-CUS-490#2 | What is the maximum refund for a heat pump?
+direct | en | DE-HR-501#3 | What is the on-call allowance per week?
+direct | en | DE-IT-530#3 | How many failed sign-in attempts lock an account?
+direct | en | DE-FIN-520#2 | How many quotes are needed for a purchase of 2,000,000 ALL?
+paraphrase | en | DE-OPS-110-r2#2 | How far ahead are intensive care units told that the power will be switched off for works?
+paraphrase | en | DE-SAF-201#2 | Which kit protects a lineman's head and hands on a pole?
+paraphrase | en | DE-SAF-201#3 | How tall can I go before a safety belt is mandatory?
+paraphrase | en | DE-SAF-215#5 | Can a worker be punished for flagging something that almost went wrong?
+paraphrase | en | DE-SAF-201#3 | What if the pole I need to climb is really old?
+paraphrase | en | DE-OPS-118#3 | How do I stop a sampled oil bottle from trapping air?
+paraphrase | en | DE-OPS-122#2 | What qualification is needed to switch off and lock a high-voltage circuit?
+paraphrase | en | DE-OPS-122#4 | Someone left their padlock on and went home, can we remove it?
+paraphrase | en | DE-OPS-141#2 | How fast do you get a repair crew if a cable is sparking?
+paraphrase | en | DE-OPS-141#2 | My lights flicker, how long until someone comes?
+paraphrase | en | DE-OPS-150#2 | How far apart should branches and power lines be?
+paraphrase | en | DE-CUS-410#3 | Is there an extra charge if I pay my bill at the post office with banknotes?
+paraphrase | en | DE-CUS-415#1 | What do I owe in penalties if I miss the payment date by a week?
+paraphrase | en | DE-CUS-415#3 | How much do I pay to get my lights back on after being cut off?
+paraphrase | en | DE-CUS-415#5 | Can I spread my overdue balance over several months?
+paraphrase | en | DE-CUS-415#4 | Are there times when the company will not cut off a customer even if they have not paid?
+paraphrase | en | DE-CUS-420#4 | I think my meter runs too fast, can you check it?
+paraphrase | en | DE-CUS-420#5 | What can I do if the company never replies to my complaint?
+paraphrase | en | DE-CUS-425#1 | I am selling my flat next month, what do I need to do about electricity?
+paraphrase | en | DE-CUS-425#4 | My father died, how do I take over his electricity contract?
+paraphrase | en | DE-CUS-470#2 | Does the company keep recordings of my calls forever?
+paraphrase | en | DE-CUS-470#3 | Do you read my usage every quarter of an hour?
+paraphrase | en | DE-CUS-480#3 | I produce more solar power than I use, what happens to the extra?
+paraphrase | en | DE-CUS-490#2 | Do I get money back for putting insulation in my roof?
+paraphrase | en | DE-HR-501#3 | How much extra do I get paid for night callouts?
+paraphrase | en | DE-HR-501#4 | How much sleep must a technician get after working past midnight?
+paraphrase | en | DE-IT-530#1 | How strong must a staff password be?
+paraphrase | en | DE-FIN-520#2 | Does a very large purchase need board sign-off?
+paraphrase | en | DE-CUS-450#3 | What happens if my prepaid meter runs out of money at midnight?
+paraphrase | en | DE-CUS-401-r3#1 | Is there a cheap tariff for using power overnight?
+paraphrase | en | DE-CUS-401-r3#3 | Is VAT included in the tariff prices?
+paraphrase | en | DE-CUS-401-r3#2 | How do poorer households get cheaper power?
+paraphrase | en | DE-ENG-340#2 | What stops a battery from overheating?
+paraphrase | en | DE-CUS-450#1 | How can I get an electricity meter that I pay for in advance?
+keyword-poor | en | DE-CUS-415#1 | what happens if I'm late
+keyword-poor | en | DE-CUS-415#3 | cost to turn back on
+keyword-poor | en | DE-OPS-122#2 | who can switch off
+keyword-poor | en | DE-OPS-141#2 | how long to wait for a repair
+keyword-poor | en | DE-CUS-460-r2#2 | money back for blackout
+keyword-poor | en | DE-SAF-201#3 | rules for climbing
+keyword-poor | en | DE-OPS-150#2 | too close to wires
+keyword-poor | en | DE-CUS-425#3 | what do I need to move in
+keyword-poor | en | DE-CUS-470#2 | how long do you keep my info
+keyword-poor | en | DE-CUS-480#2 | sell power back
+keyword-poor | en | DE-CUS-401-r3#1 | how much per unit
+keyword-poor | en | DE-CUS-410#3 | pay at the post office
+keyword-poor | en | DE-CUS-430#1 | who gets special help
+keyword-poor | en | DE-CUS-425#1 | tell them I moved
+keyword-poor | en | DE-CUS-450#3 | emergency balance
+keyword-poor | en | DE-CUS-420#2 | how fast must they answer
+keyword-poor | en | DE-CUS-440#4 | estimated bill again
+keyword-poor | en | DE-CUS-460-r2#4 | storm exclusions
+keyword-poor | en | DE-OPS-122#4 | lock cut
+keyword-poor | en | DE-ENG-310#3 | hot weather cable rating
+keyword-poor | en | DE-HR-501#4 | night shift rest
+keyword-poor | en | DE-ENG-330#3 | silence an alarm
+keyword-poor | en | DE-SAF-215#2 | how soon to tell the inspectors
+typo | en | DE-CUS-420#2 | hwo long does drin energy take to acknowlege a complaint
+typo | en | DE-CUS-415#3 | reconection fee for a household
+typo | en | DE-OPS-150#2 | minumum clearence for 20 kV lines
+typo | en | DE-OPS-118#4 | transfomer oil breakdown voltge
+typo | en | DE-SAF-210#2 | whats the arc flash bounday for 10 kV swtchgear
+typo | en | DE-CUS-415#1 | interst on overdue bil
+typo | en | DE-CUS-450#2 | minimun top up prepaid mter
+typo | en | DE-CUS-430#1 | pryority services regsiter eligibilty
+typo | en | DE-CUS-460-r2#2 | compensaton for a 24 hour interuption
+typo | en | DE-OPS-130#4 | smrat meter signal strenght
+typo | en | DE-CUS-415#5 | late paymnet instalments plan
+typo | en | DE-CUS-450#3 | emergancy credit prepaid
+typo | en | DE-SAF-201#3 | how often are poles inspeted before climbing
+typo | en | DE-ENG-320#4 | auto-recolse dead time
+typo | en | DE-CUS-480#3 | surplus solar credit explre after 12 months
+typo | en | DE-CUS-470#2 | retantion of billing records
+typo | en | DE-OPS-110-r2#2 | palnned outage notice for households
+typo | en | DE-SAF-201#2 | gloves for pole climing
+typo | en | DE-CUS-415#4 | disconection never on public holidays
+typo | en | DE-CUS-401-r3#1 | tarif for small bussiness
+typo | en | DE-FIN-520#2 | procuremnt thresholds public tender
+typo | en | DE-IT-530#3 | pasword lockout after failed atempts
+typo | en | DE-OPS-150#5 | vegatation nesting seasn
+multilingual | it | DE-CUS-410-IT#1 | Entro quanti giorni devo pagare la fattura?
+multilingual | it | DE-CUS-410-IT#2 | Quanto costa pagare in contanti alla posta?
+multilingual | it | DE-CUS-410-IT#3 | Quanto costa la riattivazione dopo il pagamento?
+multilingual | it | DE-CUS-410-IT#4 | Come posso contestare una fattura?
+multilingual | it | DE-CUS-410-IT#5 | Quando posso comunicare l'autolettura?
+multilingual | it | DE-OPS-110-IT#2 | Quanti giorni di preavviso per un'interruzione programmata a un ospedale?
+multilingual | it | DE-OPS-110-IT#3 | Quanto può durare al massimo un'interruzione programmata?
+multilingual | it | DE-OPS-110-IT#4 | Chi riceve un generatore in prestito?
+multilingual | it | DE-SAF-215-IT#2 | Entro quando va segnalato un quasi incidente?
+multilingual | it | DE-CUS-410-IT#3 | Il venerdì pomeriggio possono staccarmi la luce?
+multilingual | sq | DE-CUS-425-AL#1 | Sa ditë pune para largimit duhet të njoftoj kompaninë?
+multilingual | sq | DE-CUS-425-AL#3 | Cilat dokumente më duhen për të hapur llogari si qiramarrës?
+multilingual | sq | DE-CUS-425-AL#4 | Çfarë ndodh me llogarinë kur vdes titullari?
+multilingual | sq | DE-CUS-415-AL#1 | Sa është interesi për faturën e vonuar?
+multilingual | sq | DE-CUS-415-AL#3 | Sa kushton rilidhja e dritave brenda 24 orëve?
+multilingual | sq | DE-CUS-415-AL#5 | A mund ta paguaj borxhin me këste?
+multilingual | sq | DE-CUS-415-AL#4 | Kur nuk më shkëputin energjinë elektrike?
+multilingual | sq | DE-OPS-141-AL#1 | Në cilin numër raportoj një defekt?
+multilingual | sq | DE-OPS-141-AL#2 | Sa orë duhen që të vijë ekipi nëse ka zjarr?
+multilingual | sq | DE-CUS-450-AL#2 | Sa është rimbushja minimale e matësit me parapagim?
+multilingual | sq | DE-CUS-450-AL#3 | Sa kredi emergjente jep matësi kur mbaron kredia?
+multilingual | sq | DE-CUS-460-AL#2 | Sa kompensim marr për ndërprerje 12 orë?
+multilingual | sq | DE-CUS-460-AL#3 | Brenda sa ditësh duhet të kërkoj kompensimin?
+multilingual | sq | DE-CUS-420-AL#4 | Sa kushton testimi i matësit?
+multilingual | sq | DE-CUS-420-AL#3 | A mund të paguaj vetëm pjesën e pakontestuar të faturës?
+multilingual | sq | DE-CUS-420-AL#5 | Në cilin organ i drejtohem nëse nuk përgjigjen ankesës?
+multilingual | sq | DE-CUS-415-AL#3 | Sa kushton rilidhja e drites brenda 24 oreve
+multilingual | sq | DE-CUS-450-AL#2 | Sa eshte rimbushja minimale per parapagim
+multilingual | sq | DE-CUS-425-AL#3 | Cfare dokumentesh duhen per kontrate qiraje
+multilingual | sq | DE-OPS-150#2 | Sa është distanca minimale e pemëve nga linja 20 kV?
+multilingual | sq | DE-ENG-330#2 | Sa shpejt duhet të pranohet alarmi kritik në SCADA?
+multilingual | sq | DE-OPS-118#4 | Cili është kufiri i ujit në vajin e transformatorit?
+multilingual | sq | DE-CUS-490#2 | Sa është shuma maksimale e rimbursimit për pompë nxehtësie?
+unanswerable | en |  | How much does a new household connection to the grid cost?
+unanswerable | en |  | What is the phone number for reporting gas leaks?
+unanswerable | en |  | Does Drin Energy offer electric vehicle charging subscriptions?
+unanswerable | en |  | What is the fine for stealing electricity?
+unanswerable | en |  | How many employees does Drin Energy have?
+unanswerable | en |  | What dividend is paid to shareholders this year?
+unanswerable | en |  | What is the carbon emissions target for 2030?
+unanswerable | en |  | Can I pay my bill with cryptocurrency?
+unanswerable | en |  | What wind speed is a 110 kV tower designed for?
+unanswerable | en |  | How do I apply for a job as a lineman?
+unanswerable | en |  | What is the annual leave entitlement for technicians?
+unanswerable | en |  | What is the water tariff per cubic metre?
+unanswerable | en |  | Which transformer manufacturer does Drin Energy buy from?
+unanswerable | en |  | What is the procedure for decommissioning a hydropower dam?
+unanswerable | en |  | Does the company have a loyalty programme?
+unanswerable | en |  | What are the opening hours of the Shkoder customer centre?
+unanswerable | en |  | What is the retirement age for staff?
+unanswerable | en |  | How do I register a 5 MW solar farm?
+unanswerable | en |  | What is the voltage of the national transmission grid?
+unanswerable | en |  | What is the tariff for electric heating?
+unanswerable | en |  | What insurance covers a damaged meter?
+unanswerable | en |  | Can tenants get compensation for food spoiled in a power cut?
+unanswerable | en |  | What is the penalty for contractors who miss deadlines?
+unanswerable | en |  | Who repairs street lights?
+unanswerable | en |  | What is the speed limit for company vehicles?
+unanswerable | en |  | Who is the chief executive of Drin Energy?
+unanswerable | en |  | What is the price of a smart meter if I buy one myself?
+unanswerable | en |  | hwo much dose a new conection cost
+unanswerable | it |  | Come si richiede un allacciamento per un impianto eolico?
+unanswerable | it |  | Qual è il numero di telefono dell'ufficio legale?
+unanswerable | sq |  | Sa kushton gazi natyror për metër kub?
+unanswerable | sq |  | Si mund të aplikoj për punë si elektricist?
+unanswerable | sq |  | Cili është orari i punës së qendrës së klientit në Vlorë?
